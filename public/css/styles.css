@@ -155,7 +155,7 @@ body.darkmode {
     color: var(--font-darkmode);
 }
 
-.darkmode .darkmode-toggle {
+body.darkmode .darkmode-toggle {
     width: 30px;
     height: 30px;
     background: url(../images/sun.svg);
@@ -163,32 +163,32 @@ body.darkmode {
     background-repeat: no-repeat;
 }
 
-.darkmode .item{
+body.darkmode .item{
     background-color: var(--item-darkmode);
 }
 
-.darkmode input[type=checkbox]:before {
+body.darkmode input[type=checkbox]:before {
     background-color: var(--check-darkmode);
 }
 
-.darkmode input[type=checkbox]:checked:before {
+body.darkmode input[type=checkbox]:checked:before {
     background-color: #1E80EF;
 }
 
-.darkmode .container input {
+body.darkmode .container input {
     color: var(--font-darkmode);
     background: var(--item-darkmode);
 }
 
-.darkmode .footer {
+body.darkmode .footer {
     background-color: var(--item-darkmode);
 }
 
-.darkmode a {
+body.darkmode a {
     color: var(--font-darkmode);
 }
 
-.darkmode a.active {
+body.darkmode a.active {
     color: #116ACC;
 }
 /* Fim Darkmode */
