@@ -15,36 +15,17 @@
                 <h1>To-Do List</h1>
                 <a href="#darkmode-toggle" class="darkmode-toggle toggle"></a>
             </div>
-            <input type="text" placeholder="Insira o todo aqui..."></input>
-            <div class="item item-checked">
-                <input type="checkbox" checked>
-                <div>Ler 10 páginas de um livro</div>
-            </div>
-            <div class="item">
-                <input type="checkbox">
-                <span>Meditar</span>
-            </input>
-            </div>
-            <div class="item">
-                <input type="checkbox">
-                <span>Editar 2 vídeos</span>
-            </div>
-            <div class="item">
-                <input type="checkbox">
-                <span>Criar portifólio</span>
-            </div>
-            <div class="item">
-                <input type="checkbox">
-                <span>Academia</span>
+            <input type="text" class="input-tarefa" placeholder="Insira o todo aqui..."></input>
+            <div class="lista-tarefas">
             </div>
             <div class="footer">
-                <div>4 itens restantes</div>
+                <div class="contador">4 itens restantes</div>
                 <div class="filter">
-                    <a href="#todos" class="active">Todos</a>
-                    <a href="#ativos">Ativos</a>
-                    <a href="#concluidos">Concluídos</a>
+                    <a href="#todos" id="todos" class="active">Todos</a>
+                    <a href="#ativos" id="ativos">Ativos</a>
+                    <a href="#concluidos" id="concluidos">Concluídos</a>
+                    <a href="#reset" id="reset">Limpeza Completa</a>
                 </div>
-                <a href="#reset">Limpeza Completa</a>
             </div>
         </div>
         <script src="public/js/scripts.js"></script>
