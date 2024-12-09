@@ -150,12 +150,12 @@ input[type=checkbox]:checked:after {
 }
 
 /* Darkmode */
-body.darkmode {
+.darkmode {
     background-color: var(--bg-darkmode);
     color: var(--font-darkmode);
 }
 
-body.darkmode .darkmode-toggle {
+.darkmode .darkmode-toggle {
     width: 30px;
     height: 30px;
     background: url(../images/sun.svg);
@@ -163,32 +163,32 @@ body.darkmode .darkmode-toggle {
     background-repeat: no-repeat;
 }
 
-body.darkmode .item{
+.darkmode .item{
     background-color: var(--item-darkmode);
 }
 
-body.darkmode input[type=checkbox]:before {
+.darkmode input[type=checkbox]:before {
     background-color: var(--check-darkmode);
 }
 
-body.darkmode input[type=checkbox]:checked:before {
+.darkmode input[type=checkbox]:checked:before {
     background-color: #1E80EF;
 }
 
-body.darkmode .container input {
+.darkmode .container input {
     color: var(--font-darkmode);
     background: var(--item-darkmode);
 }
 
-body.darkmode .footer {
+.darkmode .footer {
     background-color: var(--item-darkmode);
 }
 
-body.darkmode a {
+.darkmode a {
     color: var(--font-darkmode);
 }
 
-body.darkmode a.active {
+.darkmode a.active {
     color: #116ACC;
 }
 /* Fim Darkmode */

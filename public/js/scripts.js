@@ -5,5 +5,5 @@ const body = document.body;
 // Adiciona o evento de clique no botão de toggle
 toggleBtn.addEventListener('click', () => {
     // Alterna a classe dark-mode no body
-    body.classList.toggle('dark-mode');
+    body.classList.toggle('darkmode');
 });
